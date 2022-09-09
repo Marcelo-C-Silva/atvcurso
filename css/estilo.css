@@ -1,3 +1,18 @@
 body{
     background-color: black;
 }
+.cabeçalho > img{
+    width: 14%;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.cabeçalho > h1{
+    color: aliceblue;
+    position: absolute;
+    top: 15px;
+    left: 17%;
+    font-size:large;
+}
+.cabeçalho > button{
+    
+}
