@@ -3,26 +3,30 @@ body{
     margin: 0%;
     border: none;
     outline: 0;
+
 }
 .cabeçalho .DIV1 img{
+    min-width: 200px;
+    max-width: 800px;
     width: 12%;
     margin: 12px;
     display: block;
 }
-.cabeçalho .DIV1 h1{
+.cabeçalho .DIV1 h1{ 
     color: aliceblue;
     position: absolute;
-    top: 13px;
+    top: 19px;
     left: 15%;
     font-size: 18px;
     font-style: normal;
     font-weight:40;
     font-family:'Source Sans Pro';
+    
 
 }
 .cabeçalho .DIV1 button{
     position: absolute;
-    top: 10px;
+    top: 6px;
     left: 80%;
     color: rgb(255, 255, 255);
     background-color: #ff8c00;
@@ -35,12 +39,14 @@ body{
     text-shadow: 1px rgb(255, 255, 255);
     border-radius: 2px;
     
+    
 }
 .DIV1{
     background-color: rgb(9, 79, 113);
     width: 100%;
     display: flex;
     padding: 6px;
+   
     
     
 }
@@ -65,6 +71,7 @@ body{
   color: rgb(9, 79, 113);
   font-weight: 600;
   font-size: 55px;
+  
  
 }
 
@@ -75,6 +82,7 @@ body{
     font-style: normal;
     color: rgb(106, 149, 170);
     margin-top: -5%;
+   
 }
 .container > div > h3{
     font-size: 16px;
@@ -82,6 +90,7 @@ body{
     font-weight: 400;
     font-style: normal;
     color: rgb(106, 149, 170);
+ 
 }
  .container > div > h4{
     font-size: 16px;
@@ -89,19 +98,22 @@ body{
     font-weight: 400;
     font-style: normal;
     color: rgb(106, 149, 170);
+   
  }
 .artic .figure{
     padding-top: -50px;
+   
  }
 
 .front img{
     display: flex;
-    height: 75%;
+    height: 62%;
     margin-right:30% ;
     float: right;
     position: absolute;
-    padding-left:60% ;
-    padding-top: 24px;
+    padding-left:61% ;
+    padding-top: 26px;
+   
     
     
     
@@ -112,7 +124,8 @@ body{
     margin-top: -15px;
     margin-left: -50px;
     width:68%;
-    height:480px;
+    height:482px;
+    
 
 
 }
@@ -121,13 +134,15 @@ body{
     width: 100%;
     height: 250px;
     text-align: center;
-    margin-top: -22px ;
+    margin-top: -20px ;
+  
 }
 .DIV2 h1{
     color: aliceblue;
     font-family: 'Source Sans Pro';
     padding-top: 50px;
     font-weight: 300;
+    
     
 }
 .DIV2 button{
@@ -138,6 +153,7 @@ body{
     border: 1px solid white;
     height: 30%;
     width: 300px;
+    
 
 }
 .button:hover {
@@ -149,6 +165,7 @@ body{
     font-weight: 400;
     font-style: normal;
     color: #f4f9fc;
+   
 
   }
 .DIV3 h1{
@@ -158,33 +175,50 @@ body{
   color: rgb(9, 79, 113);
   font-weight: 600;
   font-size: 30px;
+ 
 }
 .DIV3 h2{
     font-size: 20px;
     font-family: 'Source Sans Pro';
     color: rgb(26, 85, 114);
+    
+} 
+.buttons1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: 0 auto;
+    justify-content: center;
+
 }
-.buttons1 div button{
+
+ .buttons1 button{
     background-color:white; 
     border: 1px solid rgb(26, 85, 114);
     color: rgb(26, 85, 114);
-    padding: 16px 32px;
-    text-align: center;
+    
     text-decoration: none;
-    display: inline-flex;
-    font-size: 24px;
-    margin: 6px 8px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+
     transition-duration: 0.4s;
     cursor: pointer;
-    height: 15%;
-    width: 208px;
+    height: 100px;
+    width: calc(20% - 10px);
+    box-sizing: border-box;
+    margin: 5px;
+
+    
     
 }
 .buttons1 div button:hover{
-    background-color: #00000000; /* Green */
-  color: black;
+    background-color: #00000000;
+    color: black;
 }
- .buttons1 .bt5{
-    
- }
 
+.buttons1 .bt1:last-of-type{
+    width: 40%;
+    height: 60px;
+} 
